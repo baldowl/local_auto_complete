@@ -19,7 +19,7 @@ Quite simple:
 
 * replace the text_field or text_field_tag helper in the view with:
 
-    <%= text_field_with_local_auto_complete_field :contact, :name %>
+    <%= text_field_with_local_auto_complete :contact, :name %>
 
   Please, note that it's not a FormBuilder's helper, so you *must* follow
   text_field_tag syntax (yes, you can mix FormBuilder's helpers with *_tag
